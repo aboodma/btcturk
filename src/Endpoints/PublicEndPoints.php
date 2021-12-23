@@ -7,10 +7,10 @@ class PublicEndPoints
     public function ticker(String $pairSymbol)
     {
 
-        $EndPoint = "/api/v2/ticker";
+        $EndPoint = $this->baseURI."/api/v2/ticker";
         $query = ['query'=>['pairSymbol'=>$pairSymbol]];
         $client = new Client();
-        $response = $client->get($this->baseURI,$query);
+        $response = $client->get($EndPoint,$query);
         return $response;
 
     }
