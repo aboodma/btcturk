@@ -1,0 +1,4 @@
+<?php
+/**
+ * BTC API CLASS
+ */
