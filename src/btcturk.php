@@ -21,7 +21,7 @@ class BTCTURK
   }
 public function test()
 {
-  // code...
+  return $this->GetApiKey();
 }
 
 }

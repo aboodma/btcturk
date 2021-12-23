@@ -14,5 +14,7 @@
             "email": "34406204+aboodma@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "7.0"
+    }
 }
