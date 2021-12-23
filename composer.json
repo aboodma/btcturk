@@ -1,0 +1,17 @@
+{
+    "name": "aboodma/BTCTURK",
+    "description": "BTCTURK Trading Platform API's Package unofficel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdulrahman Mardinli",
+            "email": "aboodma@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"aboodma\\BtcTurk\\": "src/"}
+    },
+    "require": {}
+}
