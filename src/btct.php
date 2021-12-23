@@ -1,7 +1,7 @@
 <?php
 
 namespace aboodma\BtcTurk;
-
+use Aboodma\Btcturk\Endpoints\PublicEndPoints;
 class BTCT
 {
   protected  $ApiKey , $PrivateKey;
@@ -19,9 +19,12 @@ class BTCT
   private function GetApiKey(){
     return $this->ApiKey;
   }
-public function test()
-{
-  return $this->GetApiKey();
-}
+  
+  public function ticker(String $pair)
+  {
+    //BTC_TRY
+    $PublicEndPoints = new PublicEndPoints();
+    return $PublicEndPoints->ticker($pair);
+  }
 
 }
