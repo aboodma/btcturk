@@ -10,7 +10,7 @@ class PublicEndPoints
         $EndPoint = "/api/v2/ticker";
         $query = ['query'=>['pairSymbol'=>$pairSymbol]];
         $client = new Client();
-        $response = $client->request('GET',$this->baseURI,$query);
+        $response = $client->get($this->baseURI,$query);
         return $response;
 
     }
