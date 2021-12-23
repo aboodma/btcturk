@@ -1,8 +1,9 @@
 <?php
 
+
 require_once __DIR__ . '/vendor/autoload.php';
 
-use aboodma\BtcTurk\Index ;
+use Aboodma\Btcturk\Index ;
 
 $private = "xxx";
 $ApiKey = "xxx";

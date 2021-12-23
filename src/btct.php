@@ -2,7 +2,7 @@
 
 namespace aboodma\BtcTurk;
 
-class Index
+class BTCT
 {
   protected  $ApiKey , $PrivateKey;
   protected  $BaseURI = "https://api.btcturk.com";
